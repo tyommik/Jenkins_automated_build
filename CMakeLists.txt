@@ -1,6 +1,8 @@
 # cmake_minimum_required(VERSION <specify CMake version here>)
-project(JENKINS_AUTOMATED_BUILD_MAIN_H)
+project(Jenkins_automated_build)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(JENKINS_AUTOMATED_BUILD_MAIN_H main.cpp)
+set(SOURCE_EXE main.cpp)
+
+add_executable(main ${SOURCE_EXE})
